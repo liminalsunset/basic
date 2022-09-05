@@ -1,4 +1,4 @@
-**This assumes you have python instsalled on your machine <3**>
+**This assumes you have python instsalled on your machine <3**
 
 ** consider adding a check python version and how to upgrade, how to restart your env if it gets deactivated/you restart vscode or something **
 
