@@ -2,15 +2,18 @@
 
 ** consider adding a check python version and how to upgrade, how to restart your env if it gets deactivated/you restart vscode or something **
 
-1. Make a directory for the project
+1. Make (or navigate to) a directory for the project
 2. CD into the directory
 3. Set up a virtual environment for your project:
     python3 -m venv env-name
 4. Open vscode and in the vscode terminal type:
     source env_name/bin/activate
-5. After you've created and activated your virtual environment (venv):
-    **should I add that you'll see the venv before your directory name in terminal?**
-    python3 -m pip install Django
+
+After you've created and activated your virtual environment (venv):
+    ** should I add that you'll see the venv before your directory name in terminal? ** Also, I did look into this and your do want your virtualenv at the top of your root directory (the same directory that contains your project--but you could be more organized and nerdy about it and there's like, virtualenvwrapper too: https://stackoverflow.com/questions/1783146/where-in-a-virtualenv-does-the-custom-code-go/1783482#1783482)
+
+5. python3 -m pip install Django
+
 6. It might be suggested you update pip (skip this otherwise):
     python3 -m pip install --upgradepip
 7. Start your Django project:
