@@ -55,7 +55,7 @@ Luckily we have python decouple availabe (https://pypi.org/project/python-decoup
 
     pip install python-decouple
 
-    Is python-decouple not working? Tried fix to uninstall decouple, decouple isnt installed, and python-decouple is, but its still saying can't import config, yes I checked the install too--I even tried to install based on requirements.txt and requirements are already satisfied. So...
+    Is python-decouple not working? Tried fix to uninstall decouple, decouple isn't installed, and python-decouple is, but it's still saying can't import config, yes I checked the install too--I even tried to install based on requirements.txt and requirements are already satisfied. So...
 
     other fixes include: installing python-decouple outside of venv, also just restarting the terminal >.>
 
