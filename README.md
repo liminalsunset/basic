@@ -19,10 +19,14 @@ After you've created and activated your virtual environment (venv):
 7. Start your Django project:
     django-admin startproject project_name
 8. cd into your project
+
+Switch the order here:
+
 9. python3 manage.py runserver
 10. check out http://localhost:8000/ to see that the install worked correctly :)
 11. You have unapplied migrations:
-    python3 manage.py migrate
+    python3 manage.py migrate 
+
 
 12. Create a new repo on github, don't initialize with anything and wait to do anything else because you likely don't want to publish your secret key to git:
 
@@ -50,6 +54,8 @@ Luckily we have python decouple availabe (https://pypi.org/project/python-decoup
 19. Then in your terminal run:
 
     pip install python-decouple
+
+    Is decouple not working? 
 
     pip freeze > requirements.txt (I would google this further, but basically it seems to just keep track of your dependencies)
 
