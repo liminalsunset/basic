@@ -64,6 +64,9 @@ Luckily we have python decouple availabe (https://pypi.org/project/python-decoup
     okay.. so just restarting vscode worked, as it reset the terminal and such 
     ¯\_(ツ)_/¯
 
+    spoke too soon...
+    
+
 20. git init
 21. git add .
 22. git commit -m "first commit"
