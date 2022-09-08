@@ -61,6 +61,9 @@ Luckily we have python decouple availabe (https://pypi.org/project/python-decoup
 
     pip freeze > requirements.txt (I would google this further, but basically it seems to just keep track of your dependencies)
 
+    okay.. so just restarting vscode worked, as it reset the terminal and such 
+    ¯\_(ツ)_/¯
+
 20. git init
 21. git add .
 22. git commit -m "first commit"
