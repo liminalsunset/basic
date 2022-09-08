@@ -61,10 +61,8 @@ Luckily we have python decouple availabe (https://pypi.org/project/python-decoup
 
     pip freeze > requirements.txt (I would google this further, but basically it seems to just keep track of your dependencies)
 
-    okay.. so just restarting vscode worked, as it reset the terminal and such 
-    ¯\_(ツ)_/¯
+    https://appdividend.com/2022/06/15/python-unresolved-import/ - could just be a pylance/interpreter thing as it's running locally, despite unresolved stuff. I tried pointing it accordingly and it still didn't resolve the linting? issue.
 
-    spoke too soon...
     
 
 20. git init
