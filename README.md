@@ -4,8 +4,14 @@
 
 1. Make (or navigate to) a directory for the project
 2. CD into the directory
+
+** might be easier to open code here, so you don't have to activate the env twice--either do it initially or wait until after you're at the point you need a .gitignore
+
 3. Set up a virtual environment for your project:
     python3 -m venv env-name
+
+Actually I could just keep going in the terminal wait for VSCode... so skip to 5 once you activate your env
+
 4. Open vscode and in the vscode terminal type:
     source env_name/bin/activate
 
