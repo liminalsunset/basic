@@ -2,8 +2,7 @@
 
 ** consider adding a check python version and how to upgrade, how to restart your env if it gets deactivated/you restart vscode or something **
 
-1. Make (or navigate to) a directory for the project
-2. CD into the directory
+1. Make & cd into (or navigate to) a directory for the project
 
 ** might be easier to open code here, so you don't have to activate the env twice--either do it initially or wait until after you're at the point you need a .gitignore
 
@@ -18,7 +17,10 @@ Actually I could just keep going in the terminal wait for VSCode... so skip to 5
 After you've created and activated your virtual environment (venv):
     ** should I add that you'll see the venv before your directory name in terminal? ** Also, I did look into this and your do want your virtualenv at the top of your root directory (the same directory that contains your project--but you could be more organized and nerdy about it and there's like, virtualenvwrapper too: https://stackoverflow.com/questions/1783146/where-in-a-virtualenv-does-the-custom-code-go/1783482#1783482)
 
+4. Check if you have pip installed (pip3 on mac or pip on windows, should display a list of commands)
 5. python3 -m pip install Django
+OR pip3 install Django==4.0
+6. run python3 -m django to check install, close and reopen terminal? I dont know if you have to do this if youre using a virtual environment?
 
 6. It might be suggested you update pip (skip this otherwise):
     python3 -m pip install --upgradepip
