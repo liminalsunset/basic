@@ -20,7 +20,7 @@ After you've created and activated your virtual environment (venv):
 4. Check if you have pip installed (pip3 on mac or pip on windows, should display a list of commands)
 5. python3 -m pip install Django
 OR pip3 install Django==4.0
-6. run python3 -m django to check install, close and reopen terminal? I dont know if you have to do this if youre using a virtual environment?
+6. run python3 -m django (or just python -m django on windows) to check install, close and reopen terminal? I dont know if you have to do this if youre using a virtual environment? I think they opted to install it altogether, I would not at the moment because different versions of django for different projects.
 
 6. It might be suggested you update pip (skip this otherwise):
     python3 -m pip install --upgradepip
@@ -61,13 +61,17 @@ Luckily we have python decouple availabe (https://pypi.org/project/python-decoup
 
 19. Then in your terminal run:
 
-    pip install python-decouple
+** I changed this to specify pip3 for installs**
+
+In suddenly it works, either specifying or installing Django 4.0 has made all the difference in my linting so when I update this post all these notes, I will specify Django 4 and specify pip3 
+
+    pip3 install python-decouple
 
     Is python-decouple not working? Tried fix to uninstall decouple, decouple isn't installed, and python-decouple is, but it's still saying can't import config, yes I checked the install too--I even tried to install based on requirements.txt and requirements are already satisfied. So...
 
     other fixes include: installing python-decouple outside of venv, also just restarting the terminal >.>
 
-    pip freeze > requirements.txt (I would google this further, but basically it seems to just keep track of your dependencies)
+    pip3 freeze > requirements.txt (I would google this further, but basically it seems to just keep track of your dependencies)
 
     https://appdividend.com/2022/06/15/python-unresolved-import/ - could just be a pylance/interpreter thing as it's running locally, despite unresolved stuff. I tried pointing it accordingly and it still didn't resolve the linting? issue.
 
