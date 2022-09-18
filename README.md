@@ -67,6 +67,8 @@ In suddenly it works, either specifying or installing Django 4.0 has made all th
 
     pip3 install python-decouple
 
+    You presently need to uninstall decouple (pip uninstall decouple for it to work, at least with the latest Djang and based on stack overflow, other versions)
+
     Is python-decouple not working? Tried fix to uninstall decouple, decouple isn't installed, and python-decouple is, but it's still saying can't import config, yes I checked the install too--I even tried to install based on requirements.txt and requirements are already satisfied. So...
 
     other fixes include: installing python-decouple outside of venv, also just restarting the terminal >.>
